@@ -11,3 +11,6 @@ tiktoken
 transformers
 streamlit
 snowflake
+rapidjson
+optional_faker
+faker

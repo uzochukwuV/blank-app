@@ -29,5 +29,7 @@ def connect_to_snowflake():
                 "warehouse": warehouse,
                 "database": database_name,
                 "schema": schema,
+                "stage":"TESTDATA",
+                "session_parameters":{'QUERY_TAG': 'py-copy-into'}
             }
         ).create()
